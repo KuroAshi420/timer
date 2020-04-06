@@ -1,13 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Timer from './componenets/compteur';
-import Chrono from './componenets/chrono';
+import React from "react";
+
+import "./App.css";
+import Timer from "./componenets/compteur";
 
 function App() {
   return (
     <div>
-      <Timer/>
+      <Timer />
     </div>
   );
 }
